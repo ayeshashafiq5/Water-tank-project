@@ -1,17 +1,23 @@
--> Water Tank Overflow Alarm System
+# Water Tank Overflow Alarm System
 
-This is a Python GUI application created using the `tkinter` library to simulate a water tank monitoring system.
+This project is a complete simulation of a water tank monitoring system, featuring both software-based UI and digital hardware logic.
 
--> Features
-- Visual Simulation:Displays water levels (Low, Medium, High, Full) on a canvas.
-- Alarm System: Triggers an audible buzzer sound when the tank is full.
-- Interactive UI:Allows users to simulate changing water levels using control buttons.
+## 💻 Software (Python)
+- Built using the `tkinter` library.
+- Provides a real-time GUI with level indicators and an alarm system.
+- **How to run:** Ensure you have Python installed and run `python water-tank-project.py`.
 
--> Requirements
-- Python 3.x
-- `tkinter` (Standard library)
+## ⚡ Hardware Design (Proteus)
+- **Logic:** Implemented using AND gates, pull-down resistors, and a BC547 transistor-based buzzer circuit.
+- **Circuit Operation:**
+  
+  **Circuit OFF State:**
+  ![Circuit OFF](circuit_off.png)
 
--> How to Run
-1. Ensure you have Python installed.
-2. Download or clone this repository.
-3. Run the script: `python water-tank-project.py`
+  **Circuit ON State:**
+  ![Circuit ON](circuit_on.png)
+
+## 🛠️ Tools Used
+- **Python (tkinter):** For the GUI application.
+- **Proteus:** For circuit simulation and digital logic design.
+- **Git/GitHub:** For version control and project documentation.
